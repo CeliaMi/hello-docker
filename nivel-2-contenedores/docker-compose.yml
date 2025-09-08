@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  api-python:
+    build: ./api-python
+    ports:
+      - "8086:8000"
+
+  api-php:
+    build: ./api-php
+    ports:
+      - "8087:8001"
