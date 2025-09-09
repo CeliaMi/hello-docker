@@ -1,28 +1,27 @@
+<kbd><img src="./assests/hello-docker.png" ></kbd>
 
-<img src="./nivel-1-contenedor/assests/hello-docker.png">
+# 🪐 API de Eventos Astronómicos
+ 
 
-Bienvenidas al **repositorio de práctica de iniciación a Docker**   
-Este proyecto ha sido preparado como **simulación educativa** para introducirnos en el mundo de Docker y el manejo de contenedores.  
-
-El objetivo es aprender a levantar servicios de manera sencilla y entender cómo se gestionan los contenedores, primero de forma individual y luego en conjunto con Docker Compose.
+Este repositorio contiene la **API de Eventos Astronómicos** desarrollada en Python + FastAPI, lista para ser consumida por desarrolladores frontend **sin instalar nada adicional**.
 
 ---
 
-##  Objetivo 
+## 🛠 Cómo empezar
 
-- 👉 Familiarizarse con la construcción y ejecución de contenedores Docker.  
+**Paso 1: Clonar el repositorio**  
 
+**Paso 2: generar la imagen de docker**
+```bash
+docker build -t astro-events-api .
 
-###  Nivel 1 – Contenedor único
+```
 
-En este nivel trabajamos con **un único contenedor** que contiene :
+**Paso 3: Levantar la imagen: generar el contenedor de Docker**
+```bash
+docker run -d -p 8085:8000 astro-events-api
 
-> 📁api-python → API de Eventos Astronómicos (FastAPI)
+```
+¡Qué velocidad😎!
 
-### Nivel 2 – Docker Compose con dos contenedores
-
-En este nivel se trabaja con Docker Compose para levantar dos contenedores simultáneamente:
-
-> 📁api-python → API de Eventos Astronómicos (FastAPI)
-
-> 📁api-php → API de Frases Célebres de Astronomía (PHP vanilla)
+Ya tienes todo listo para consumir en http://localhost:8085/events 🌠🌠
