@@ -16,7 +16,11 @@ Las APIs incluidas son:
 
 ## 🚀 Cómo empezar
 
-**Paso 1: Clonar el repositorio**  
+**Paso 1: Clonar el repositorio**
+Atención clonar solo la rama level-2👇
+```bash
+git clone --branch level-2 --single-branch https://github.com/CeliaMi/hello-docker.git
+```
 
 **Paso 2: Levantar los Contenedores**  
 
