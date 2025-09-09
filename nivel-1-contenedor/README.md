@@ -9,12 +9,15 @@ Este repositorio contiene la **API de Eventos Astronómicos** desarrollada en Py
 
 ## 🛠 Cómo empezar
 
-**Paso 1: Clonar el repositorio**  
+**Paso 1: Clonar el repositorio**
+Atención clonar solo la rama level-1 👇
+```bash
+git clone --branch level-1 --single-branch https://github.com/CeliaMi/hello-docker.git
+```
 
 **Paso 2: generar la imagen de docker**
 ```bash
 docker build -t astro-events-api .
-
 ```
 
 **Paso 3: Levantar la imagen: generar el contenedor de Docker**
