@@ -27,6 +27,12 @@ git clone --branch level-2 --single-branch https://github.com/CeliaMi/hello-dock
 ```bash
 docker-compose up --build
 ```
+>[!WARNING]
+> Puede ser que tu sistema operativo no soporte este comando, prueba con este:
+> ```bash
+> docker compose up --build
+>```
+>
 
 ¡Listo! Ya puedes consumir nuestras APIS en:
  - http://localhost:8086/events
