@@ -18,6 +18,8 @@ Las APIs incluidas son:
 
 **Paso 1: Clonar el repositorio**
 Atención clonar solo la rama level-2👇
+>[!WARNING]
+>Si vienes de realizar el nivel 1, recuerda eliminar el repositorio anterior hello-docker
 ```bash
 git clone --branch level-2 --single-branch https://github.com/CeliaMi/hello-docker.git
 ```
