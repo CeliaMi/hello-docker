@@ -13,6 +13,7 @@ Este repositorio contiene la **API de Eventos Astronómicos** desarrollada en Py
 Atención clonar solo la rama level-1 👇
 ```bash
 git clone --branch level-1 --single-branch https://github.com/CeliaMi/hello-docker.git
+cd hello-docker
 ```
 
 **Paso 2: generar la imagen de docker**
