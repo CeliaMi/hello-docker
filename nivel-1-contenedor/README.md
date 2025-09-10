@@ -6,12 +6,22 @@
 Este repositorio contiene la **API de Eventos Astronómicos** desarrollada en Python + FastAPI, lista para ser consumida por desarrolladores frontend **sin instalar nada adicional**.
 
 
-Imaginemos la situación...👨‍🚀💬: 
->La Agencia Planetaria Internacional quiere una página web para mostrar al público sus próximos eventos astronómicos.
-Nuestra misión es desarrollar la parte frontend.
+Imaginemos la situación...acabas de recibir un email👨‍🚀💬: 
 
->Por ahora, la agencia solo tiene listo el backend y nos ha enviado una API estable para comenzar a trabajar.
-Esa API está hecha en Python (un lenguaje que no usamos en este curso), pero no pasa nada: la agencia nos entregó el proyecto dockerizado, así que únicamente necesitamos levantarlo con Docker para poder consumirla desde el frontend.
+>Asunto: 📩 Proyecto frontend: colaboración con el Observatorio Internacional
+>
+> Hola equipo,
+>
+>Mi nombre es Pepa y formo parte del Observatorio Internacional. Me pongo en contacto con vosotras para que realicéis el desarrollo frontend de nuestra nueva página web para dar aviso de los próximos eventos de nuestro observatorio.
+>
+>Actualmente, solo tenemos listo el backend. Os hemos enviado una versión estable de la API para que podáis comenzar a trabajar en el desarrollo frontend. Esta API está desarrollada en Python, os la enviamos dockerizada, así no teneís problemas de compatibilidad.
+>
+>Estamos muy entusiasmadas de contar con vosotras para este proyecto y ver cómo nuestra nueva web cobra vida. 🚀
+>
+>Un saludo,
+>
+>Pepa – Directora del Observatorio Internacional
+>
 
 ---
 
