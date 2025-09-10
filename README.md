@@ -6,6 +6,8 @@ Este proyecto ha sido preparado como **simulación educativa** para introducirno
 
 El objetivo es aprender a levantar servicios de manera sencilla y entender cómo se gestionan los contenedores, primero de forma individual y luego en conjunto con Docker Compose.
 
+Todo lo que necesites a nivel teórico está aquí: https://github.com/Factoria-F5-madrid/docker
+
 ---
 
 ##  Objetivo 
