@@ -22,6 +22,7 @@ Atención clonar solo la rama level-2👇
 >Si vienes de realizar el nivel 1, recuerda eliminar el repositorio anterior hello-docker
 ```bash
 git clone --branch level-2 --single-branch https://github.com/CeliaMi/hello-docker.git
+cd hello-docker
 ```
 
 **Paso 2: Levantar los Contenedores**  
