@@ -33,6 +33,7 @@ Atención clonar solo la rama level-1 👇
 git clone --branch level-1 --single-branch https://github.com/CeliaMi/hello-docker.git
 cd hello-docker
 ```
+**Paso 1.1: Abrir Docker Desktop**
 
 **Paso 2: generar la imagen de docker**
 ```bash
