@@ -44,6 +44,8 @@ git clone --branch level-2 --single-branch https://github.com/CeliaMi/hello-dock
 cd hello-docker
 ```
 
+**Paso 1.1: Abrir Docker Desktop**
+
 **Paso 2: Levantar los Contenedores**  
 
 ```bash
